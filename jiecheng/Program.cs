@@ -11,7 +11,7 @@ namespace jiecheng
         public int Jc(int num)
         {
             return num > 0 ? num * Jc(num - 1) : 1;
-            //如果num>0则返回num*(num-1),否则返回1
+            //如果num>0则返回num*(num-1),否则返回1.
         }
     }
     class excutejiecheng
